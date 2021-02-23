@@ -14,3 +14,12 @@ var dogAge = prompt("How old is your dog?");
 var humanAge = ((dogAge - 2) * 4) + 21;
 alert("Your dog is " + humanAge + " years old in human years.");
 
+// 3- Function to calculate BMI
+
+function bmiCalculator(weight, height){
+
+    var bmi = weight/(height * height); //Math.pow(height, 2)
+    return Math.round(bmi);
+}
+
+console.log(bmi = bmiCalculator(65, 1.8));
