@@ -23,3 +23,13 @@ function bmiCalculator(weight, height){
 }
 
 console.log(bmi = bmiCalculator(65, 1.8));
+
+// 4- Love Calculator
+
+prompt("What is your name?");
+prompt("What is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;
+
+alert("Your loveScore is: " + loveScore + "%");
