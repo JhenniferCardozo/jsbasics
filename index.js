@@ -51,3 +51,16 @@ if (loveScore > 30 && loveScore <= 70){
 if (loveScore <= 30){
   alert("Your loveScore is: " + loveScore + "%" + " You go together like oil and water!");  
 }
+
+//6- Sample of Array 
+
+var guestList = ["Jhenni", "Ana", "Joao", "Gabrielle", "Marcelo"];
+
+var guestName = prompt("What is your name?");
+
+if (guestList.includes(guestName)){
+    alert("Welcome!")
+}else{
+    alert("Sorry, maybe next time!")
+}
+
