@@ -64,3 +64,29 @@ if (guestList.includes(guestName)){
     alert("Sorry, maybe next time!")
 }
 
+// 7- Array 2 Conditionals and arrays
+//name.push(); add item in the array but in the end and name.pop(); removes the last item of the array
+
+
+var output = [];
+var count = 1;
+
+function fizzBuzz() {
+
+if (count % 3 === 0 && count % 5 === 0){
+    output.push("FizzBuzz");
+}
+else if (count % 3 === 0) {
+    output.push("Fizz");
+}
+else if (count % 5 === 0) {
+    output.push("Buzz");
+}
+else {
+    output.push(count);
+}
+
+count++;
+    console.log(output);
+}
+
