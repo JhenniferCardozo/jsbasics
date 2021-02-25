@@ -34,6 +34,8 @@ loveScore = Math.floor(loveScore) + 1;
 
 alert("Your loveScore is: " + loveScore + "%");
 
+
+
 //5- Love Calculator2 (if statement)
 
 prompt("What is your name?");
@@ -142,5 +144,28 @@ else {
 
     }
     console.log(output);
+}
+
+// 10- Printing the lyrics to the 99 bottles of beer song
+
+var numberOfBottles = 99
+
+function beer(){
+
+    while (numberOfBottles > 0){
+
+        var bottleWord = "bottle";
+
+    if (numberOfBottles > 1) {
+        
+        var bottleWord = "bottles";
+    } 
+
+    console.log(numberOfBottles + " " + bottleWord + " of beer on the wall, " + numberOfBottles + " " + bottleWord + " of beer.");
+
+numberOfBottles--;
+
+    console.log("Take one down and pass it around, " + numberOfBottles + " " + bottleWord + " of beer on the wall.");
+    }
 }
 
