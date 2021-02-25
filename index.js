@@ -33,3 +33,21 @@ var loveScore = Math.random() * 100;
 loveScore = Math.floor(loveScore) + 1;
 
 alert("Your loveScore is: " + loveScore + "%");
+
+//5- Love Calculator2 (if statement)
+
+prompt("What is your name?");
+prompt("What is their name?");
+
+var loveScore = Math.random() * 100;
+loveScore = Math.floor(loveScore) + 1;// 1-100
+
+if (loveScore > 70){
+alert("Your loveScore is: " + loveScore + "%" + " You realy love each other!");
+}
+if (loveScore > 30 && loveScore <= 70){
+  alert("Your loveScore is: " + loveScore + "%");  
+}
+if (loveScore <= 30){
+  alert("Your loveScore is: " + loveScore + "%" + " You go together like oil and water!");  
+}
