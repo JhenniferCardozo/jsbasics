@@ -1,11 +1,26 @@
 // 1-	Ask name, then prompt “Hello, name” with the initial letter capitalized and the other letters lower case:
 
+// Create a var that stores that the user enters via prompt
 var name = prompt("What is your name?");
+
+// Capitalize the first letter of the name:
+
+// Isolate the first char:
 var firstChar = name.slice(0,1);
+
+// Turn the first char to upper case:
 var upperCaseFChar = firstChar.toUpperCase();
+
+// Isolate the rest of the name:
 var restOfName = name.slice(1,name.length);
+
+// Turn the rest of the name to lower case:
 var restOfName = restOfName.toLowerCase();
+
+// Concactenate the first char with rest of the name:
 var capName = upperCaseFChar + restOfName;
+
+// Using the Capitalized version to greet them using an alert
 alert("Hello, " + capName);
 
 // 2-	Dog age human formula:
