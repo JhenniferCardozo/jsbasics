@@ -1,4 +1,27 @@
-// 1-	Ask name, then prompt “Hello, name” with the initial letter capitalized and the other letters lower case:
+// 1 Write some code so the value are switched, so the variable a holds the value "8" 
+// and the variable b holds the value "3"
+
+// Rules: 
+// a) Do not change any the existing code
+// b) You are not allowed to type any numbers
+// c) You should not redeclare the variables a and b 
+
+var a = "3";
+var b = "8";
+    
+/***********Do not change the code above 👆*******/
+//Write your code here:
+var c = a;
+a = b;
+b = c;
+
+/***********Do not change the code below 👇*******/
+
+    console.log("a is " + a);
+    console.log("b is " + b);
+
+
+// 2-	Ask name, then prompt “Hello, name” with the initial letter capitalized and the other letters lower case:
 
 // Create a var that stores that the user enters via prompt
 var name = prompt("What is your name?");
@@ -23,13 +46,13 @@ var capName = upperCaseFChar + restOfName;
 // Using the Capitalized version to greet them using an alert
 alert("Hello, " + capName);
 
-// 2-	Dog age human formula:
+// 3-	Dog age human formula:
 
 var dogAge = prompt("How old is your dog?");
 var humanAge = ((dogAge - 2) * 4) + 21;
 alert("Your dog is " + humanAge + " years old in human years.");
 
-// 3- Function to calculate BMI
+// 4- Function to calculate BMI
 
 function bmiCalculator(weight, height){
 
@@ -39,7 +62,7 @@ function bmiCalculator(weight, height){
 
 console.log(bmi = bmiCalculator(65, 1.8));
 
-// 4- Love Calculator
+// 5- Love Calculator
 
 prompt("What is your name?");
 prompt("What is their name?");
@@ -51,7 +74,7 @@ alert("Your loveScore is: " + loveScore + "%");
 
 
 
-//5- Love Calculator2 (if statement)
+//6- Love Calculator2 (if statement)
 
 prompt("What is your name?");
 prompt("What is their name?");
@@ -69,7 +92,7 @@ if (loveScore <= 30){
   alert("Your loveScore is: " + loveScore + "%" + " You go together like oil and water!");  
 }
 
-//6- Sample of Array 
+//7- Sample of Array 
 
 var guestList = ["Jhenni", "Ana", "Joao", "Gabrielle", "Marcelo"];
 
@@ -81,7 +104,7 @@ if (guestList.includes(guestName)){
     alert("Sorry, maybe next time!")
 }
 
-// 7- Array 2 Conditionals and arrays
+// 8- Array 2 Conditionals and arrays
 //name.push(); add item in the array but in the end and name.pop(); removes the last item of the array
 
 
@@ -107,7 +130,7 @@ count++;
     console.log(output);
 }
 
-// 8- Array 3 FizzBuzz until 100
+// 9- Array 3 FizzBuzz until 100
 
 
 
@@ -136,7 +159,7 @@ count++;
     console.log(output);
 }
 
-// 9- FizzBuzz until 100 using for statement
+// 10- FizzBuzz until 100 using for statement
 
 var output = [];
 
@@ -161,7 +184,7 @@ else {
     console.log(output);
 }
 
-// 10- Printing the lyrics to the 99 bottles of beer song
+// 11- Printing the lyrics to the 99 bottles of beer song
 
 var numberOfBottles = 99
 
